@@ -51,17 +51,17 @@
 }
 
 /* Drill 13 - Write your code solution below */
-#d13-div2 {
+#d13-div1 {
     text-align: center;
+}
+#d13-div2 {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: bold;
 }
 #d13-div3 {
-    text-align: center;
     font-size: 48px;
 }
 #d13-div4 {
-    text-align: center;
     font-size: 24px;
     font-style: italic;
 }
