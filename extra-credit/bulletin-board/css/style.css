@@ -6,3 +6,13 @@
 
     Good luck, and have fun!
 */
+.narrow {
+    width: 200;
+    background-color: yellow;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+#bulletin-board {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
