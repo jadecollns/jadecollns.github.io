@@ -1,0 +1,14 @@
+div {
+    border: 3px dotted black;
+    margin: 24px 0px;
+    padding: 24px 36px;
+    background-color: rgb(188, 233, 233);
+}
+
+p {
+    border: 20px solid rgb(113, 30, 82);
+    margin: 60px;
+    padding: 48px 60px;
+    background-color: rgb(222, 192, 214);
+    border-radius: 50%
+}
