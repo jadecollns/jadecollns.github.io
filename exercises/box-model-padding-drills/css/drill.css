@@ -27,9 +27,9 @@
 
 /* Drill 5 - Write your code solution below */
 .d5-container {
-    padding: 25px;
     text-align: center;
 }
 .d5-s {
     padding: 24px;
+    display: inline-block;
 }
