@@ -9,8 +9,6 @@
 .post-yellow {
     background-color: rgb(253, 241, 136);
     display: inline-block;
-    width: 200;
-    height: 200;
     margin: 24px;
     padding: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -18,8 +16,6 @@
 .post-green {
     background-color: rgb(161, 243, 177);
     display: inline-block;
-    width: 200;
-    height: 200;
     margin: 24px;
     padding: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -27,8 +23,6 @@
 .post-blue {
     background-color: rgb(176, 214, 249);
     display: inline-block;
-    width: 200;
-    height: 200;
     margin: 24px;
     padding: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -36,8 +30,6 @@
 .post-pink {
     background-color: rgb(251, 197, 241);
     display: inline-block;
-    width: 200;
-    height: 200;
     margin: 24px;
     padding: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
