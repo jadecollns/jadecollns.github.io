@@ -13,24 +13,40 @@
     padding: 20px;
     display: inline-block;
 }
+.tetris-block-2 {
+    border-width: 12px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 20px;
+    display:inline-block
+}
 
 .red {
     background-color: red;
     border-color: crimson;
+    border-radius: 40% 5% 40%;
 }
 .orange {
     background-color: rgb(255, 166, 2);
     border-color: darkorange;
+    border-radius: 50%;
 }
 .green {
     background-color: rgb(100, 215, 100);
     border-color: mediumseagreen;
+    border-radius: 0% 50%;
 }
 .blue {
     background-color: deepskyblue;
     border-color: dodgerblue;
+    border-radius: 50% 20% 0% 20%;
 }
 .purple {
     background-color: mediumpurple;
     border-color: blueviolet;
+    border-radius: 35%;
+}
+.empty {
+    background-color: black;
+    border-color: black;
 }
