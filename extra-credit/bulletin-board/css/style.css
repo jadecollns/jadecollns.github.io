@@ -6,41 +6,25 @@
 
     Good luck, and have fun!
 */
-.post-yellow {
+.post-it {
+    display: inline-block;
+    margin: 24px;
+    padding: 24px;
+    height: 200px;
+    width: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#post-yellow {
     background-color: rgb(253, 241, 136);
-    display: inline-block;
-    margin: 24px;
-    padding: 24px;
-    height: 200px;
-    width: 200px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.post-green {
+#post-green {
     background-color: rgb(161, 243, 177);
-    display: inline-block;
-    margin: 24px;
-    padding: 24px;
-    height: 200px;
-    width: 200px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.post-blue {
+#post-blue {
     background-color: rgb(176, 214, 249);
-    display: inline-block;
-    margin: 24px;
-    padding: 24px;
-    height: 200px;
-    width: 200px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.post-pink {
+#post-pink {
     background-color: rgb(251, 197, 241);
-    display: inline-block;
-    margin: 24px;
-    padding: 24px;
-    height: 200px;
-    width: 200px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h4 {
     text-decoration: underline;
