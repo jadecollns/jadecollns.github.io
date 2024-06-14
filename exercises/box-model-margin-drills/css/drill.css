@@ -41,9 +41,12 @@
 }
 
 /* Drill 7 - Write your code solution below */
-.d7-div {
-    margin-left: 48px;
+#d7-container {
+    text-align: center;
 }
 #d7-div1 {
-    margin-left: 105px;
+    margin-right: 48px;
+}
+#d7-div3 {
+    margin-left: 48px;
 }
