@@ -1,0 +1,102 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    width: 700px;
+    border: solid;
+    border-radius: 20px;
+    padding: 24px;
+    background: linear-gradient(to bottom right, rgb(251, 195, 98), #fd873e)
+}
+#left-side {
+    display: inline-block;
+    width: 65%;
+}
+#right-side {
+    display: inline-block;
+    width: 34%;
+}
+#id-and-expiration div {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#small-pic-container {
+    display: inline-block;
+}
+
+#data-fields {
+    display: inline-block;
+}
+
+#small-pic-container img {
+    height: 100px;
+}
+
+#data-left,
+#data-right {
+    display: inline-block;
+    padding: 15px;
+}
+#signature {
+    text-align: center;
+    font-family: cursive;
+}
+
+#right-side img {
+    width: 100%;
+}
+
+#donor,
+#real-id {
+    display: inline-block;
+}
+
+#content h1 {
+    color: darkblue;
+    font-size: 50px;
+    margin: 0px;
+}
+
+#left-side h4 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background-color: darkblue;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: large;
+}
+
+#id-and-expiration div {
+    color: darkblue;
+    padding-left: 10px;
+}
+
+#id-and-expiration span {
+    color: red;
+    padding-right: 30px;
+}
+
+#address {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#data-left div,
+#data-right div {
+    color: darkblue;
+}
+
+#data-left span,
+#data-right span {
+    color: red;
+}
+
