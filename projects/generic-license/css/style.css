@@ -6,7 +6,6 @@
 
     Good luck, and have fun!
 */
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 #license {
     width: 700px;
     border: solid;
@@ -47,8 +46,8 @@
 }
 #signature {
     text-align: center;
-    font-family: tangerine;
-    font-size: 30px;
+    font-family: cursive;
+    font-size: 20px;
 }
 
 #right-side img {
