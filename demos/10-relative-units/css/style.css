@@ -1,0 +1,18 @@
+img.small {
+    width: 200px;
+}
+img.stretch {
+    width: 100%;
+}
+div.outer-container {
+    border: 1px solid black;
+    width: 33%;
+}
+div.inner-container {
+    border: 3px solid blue;
+}
+.inner-container img {
+    width: 50%;
+    border: 3px solid lightgreen;
+    display: block;
+}
