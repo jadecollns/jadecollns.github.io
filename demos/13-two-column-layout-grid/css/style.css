@@ -10,7 +10,8 @@ body {
 #grid-layout {
     display: grid;
     grid-template-columns: 1fr 250px;
-    grid-template-areas: "content sidebar";  
+    grid-template-areas: "content sidebar";
+    margin: 36px 0px;  
 }
 
 #sidebar-content {
