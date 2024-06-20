@@ -29,7 +29,7 @@ body {
 
 #sidebar-content ul {
     background-color: rgb(162, 202, 149);
-    border: 1px solid rgb(37, 115, 71);
+    border: 3px solid rgb(37, 115, 71);
     margin: 0px 0px 36px;
     padding: 0px 12px;
     list-style-type: none;
