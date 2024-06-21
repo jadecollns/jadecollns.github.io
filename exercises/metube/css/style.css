@@ -91,13 +91,13 @@ body {
 
 .metube-item h4 a {
     text-decoration: none;
-    color:darkturquoise;
+    color: darkturquoise;
     display: block;
 }
 
 .metube-item h4 a:hover {
     text-decoration: underline;
-    color:darkturquoise;
+    color: white
 }
 
 .metube-item .video-details {
