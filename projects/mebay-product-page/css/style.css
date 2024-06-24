@@ -44,26 +44,28 @@ body {
     background-color: mediumaquamarine;
     color: rgb(34, 34, 34);
     padding: 15px;
-    margin: 24px;
+
     border-radius: 55px;
 }
 
 /* Main Content Styles */
 #main h2 {
-    color: mediumaquamarine
+    color: mediumaquamarine;
+    text-align: center;
 }
 
 .product {
     color: lightgray;
+    padding: 10px;
 }
 
-.buttons ul {
+#buttons ul {
     padding: 30px;
     margin: 0px;
     list-style-type: none;
 }
 
-.buttons a {
+#buttons a {
     display: block;
     color: #111111;
     background-color: mediumaquamarine;
@@ -74,7 +76,7 @@ body {
     border-radius: 50px;
 }
 
-.buttons a:hover {
+#buttons a:hover {
     background-color: darkcyan;
     color: white;
 }
