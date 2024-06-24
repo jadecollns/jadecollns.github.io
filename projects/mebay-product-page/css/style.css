@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 40% 1fr;
+    grid-template-areas:
+        "header header header" 
+        "column-1 column-2 column-3";
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+    text-align: center;
+}
+
+#sidebar-left {
+    grid-area: column-1;
+    padding: 0px 24px;
+}
+
+#main {
+    grid-area: column-2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sidebar-right {
+    grid-area: column-3;
+    padding: 0px 24px;
+}
