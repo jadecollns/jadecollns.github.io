@@ -5,11 +5,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(34, 34, 34);
 }
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 1fr 40% 1fr;
+    grid-template-columns: 1fr 40% 25%;
     grid-template-areas:
         "header header header" 
         "column-1 column-2 column-3";
@@ -17,22 +18,101 @@ body {
 
 #header {
     grid-area: header;
-    padding: 0px 36px;
+    padding: 36px 0px 24px;
     text-align: center;
 }
 
 #sidebar-left {
     grid-area: column-1;
-    padding: 0px 24px;
+    padding: 24px;
 }
 
 #main {
     grid-area: column-2;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 24px;
 }
 
 #sidebar-right {
     grid-area: column-3;
-    padding: 0px 24px;
+    padding: 24px;
+    color: lightgray;
+}
+
+/* Header Styles */
+#header a {
+    text-decoration: none;
+    background-color: mediumaquamarine;
+    color: rgb(34, 34, 34);
+    padding: 15px;
+    margin: 24px;
+    border-radius: 55px;
+}
+
+/* Main Content Styles */
+#main h2 {
+    color: mediumaquamarine
+}
+
+.product {
+    color: lightgray;
+}
+
+.buttons ul {
+    padding: 30px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.buttons a {
+    display: block;
+    color: #111111;
+    background-color: mediumaquamarine;
+    padding: 10px;
+    margin: 24px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.buttons a:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+/* Sidebar Styles */
+
+.other {
+    border: 3px solid mediumaquamarine;
+    padding: 0px 16px 16px;
+    margin: 12px;
+}
+
+.seller-info {
+    border: 3px solid mediumaquamarine;
+    padding: 0px 16px 16px;
+    margin: 12px;
+    text-align: center;
+}
+
+#sidebar-right ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+#sidebar-right a {
+    color: lightgray;
+    display: block;
+    padding: 10px;
+}
+
+#sidebar-right a:hover {
+   color: mediumaquamarine
+}
+
+/* Image Style */
+
+#product-image {
+    background-color: mediumaquamarine;
+    padding: 5px;
 }
