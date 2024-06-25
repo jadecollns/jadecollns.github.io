@@ -43,6 +43,7 @@ body {
 #header h1 {
     padding: 24px 0px 0px;
 }
+
 #header a {
     text-decoration: none;
     background-color: mediumaquamarine;
@@ -68,6 +69,10 @@ body {
 
 #price {
     text-align: center;
+}
+
+#price b {
+    font-size: xx-large;
 }
 
 #buttons ul {
