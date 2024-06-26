@@ -32,6 +32,12 @@ body{
     flex-direction: column;
 }
 
+.card-style-1 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
 .card-style-1 h2 {
     text-align: center;
 }
@@ -49,7 +55,7 @@ body{
     background-color: green;
     display: inline-block;
     width: 100%;
-    padding: 20px;
+    padding: 22px;
     margin-top: 24px;
     text-align: center;
     transition: 
@@ -58,5 +64,5 @@ body{
 }
 
 .card-style-1 a:hover {
-    background-color: darkgreen;
+    background-color: darkblue;
 }
