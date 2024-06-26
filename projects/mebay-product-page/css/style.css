@@ -70,7 +70,8 @@ body {
 
 #price-container {
     display: flex;
-    align-items: baseline
+    align-items: baseline;
+    gap: 34px;
 }
 
 #price {
@@ -97,6 +98,7 @@ body {
     text-decoration: none;
     text-align: center;
     border-radius: 50px;
+    width: 100%;
 }
 
 #buttons a:hover {
