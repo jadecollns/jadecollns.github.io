@@ -29,7 +29,6 @@ body {
 #main {
     grid-area: column-2;
     padding: 24px;
-    text-align: center;
 }
 
 #sidebar-right {
@@ -57,7 +56,7 @@ body {
 /* Main Content Styles */
 #main h2 {
     color: mediumaquamarine;
-    text-align: center;
+    padding-left: 12px;
 }
 
 .product {
@@ -68,15 +67,6 @@ body {
 #price b {
     font-size: xx-large;
 }
-
-#condition {
-    text-align: center;
-}
-
-#price {
-    text-align: center;
-}
-
 
 #buttons ul {
     padding: 0px 30px 8px;
@@ -114,6 +104,10 @@ body {
     text-align: center;
 }
 
+#seller-pic {
+    width: 100%;
+}
+
 #sidebar-right ul {
     padding: 0px;
     margin: 0px;
@@ -135,4 +129,5 @@ body {
 #product-image {
     background-color: mediumaquamarine;
     padding: 5px;
+    width: 100%;
 }
