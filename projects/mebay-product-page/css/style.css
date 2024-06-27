@@ -81,11 +81,11 @@ body {
 }
 
 #buttons a {
-    display: block;
+    display: inline-block;
     color: #111111;
     background-color: mediumaquamarine;
-    padding: 12px;
-    margin: 24px;
+    padding: 12px 24px;
+    margin: 12px;
     text-decoration: none;
     text-align: center;
     border-radius: 50px;
