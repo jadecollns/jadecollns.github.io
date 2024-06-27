@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-style-3 {
+   display: flex;
+   flex-direction: column;
+   margin: 24px;
+   max-width: 350px;
+   background-color: yellow;
+   border: 18px solid gold;
+   border-radius: 15px;
+   padding: 18px;
+}
+
+.pokemon-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-style-3 .name {
+    font-size: 26px;
+    margin: 0px;
+}
+
+.health {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.card-style-3 img {
+    width: 100%;
+    border: 6px solid goldenrod;
+}
+
+.details {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    background-color: goldenrod;
+    margin: 4px 0px;
+
+}
+
+.description .bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.attack {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 12px 0px;
+    border-bottom: solid;
+}
+
+.description {
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.power {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.data {
+    border: 2px solid goldenrod;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 4px;
+}

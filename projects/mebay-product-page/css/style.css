@@ -10,7 +10,7 @@ body {
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 2fr 450px 1fr;
+    grid-template-columns: 2fr 550px 1fr;
     grid-template-areas:
         "header header header" 
         "column-1 column-2 column-3";
@@ -71,12 +71,12 @@ body {
 #price-container {
     display: flex;
     align-items: baseline;
-    gap: 34px;
+    justify-content: space-between;
 }
 
 #buttons ul {
-    padding: 10px 30px 8px;
-    margin: 0px;
+    padding: 10px;
+    margin: 0px 48px;
     list-style-type: none;
 }
 
