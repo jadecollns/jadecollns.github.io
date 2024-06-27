@@ -27,6 +27,7 @@ body {
 .side-by-side {
     display: flex;
     align-items: center;
+    margin: 48px 0px;
 }
 
 .side-by-side .image-container {
@@ -35,6 +36,7 @@ body {
 
 .side-by-side .text-container {
     flex: 1;
+    padding: 36px;
 }
 
 .side-by-side .image-container img {
