@@ -10,7 +10,7 @@ body {
 
 #grid-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr 250px;
+    grid-template-columns: 2fr 450px 1fr;
     grid-template-areas:
         "header header header" 
         "column-1 column-2 column-3";
