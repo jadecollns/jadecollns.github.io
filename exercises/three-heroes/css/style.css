@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/waves.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-1 h2 {
+    font-size: 7vw;
+    margin-bottom: 2vh;
+    margin-right: 5vw;
+    color: #0da0b7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#hero-1 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#hero-1 a {
+    font-size: 2vw;
+    display: inline-block;
+    background-color: #0da0b7;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: solid;
+    border-radius: 20px;
+    margin: 3vh 15vw 20vw 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
