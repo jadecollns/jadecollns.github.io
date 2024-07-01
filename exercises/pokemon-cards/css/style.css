@@ -28,9 +28,8 @@ body {
 }
 
 .health {
-    margin: 0px;
+    margin: 25px 0px;
     font-size: 18px;
-    margin-top: 25px;
 }
 
 .card-style-3 img {
@@ -44,7 +43,7 @@ body {
     font-weight: bold;
     text-align: center;
     background-color: goldenrod;
-    margin: 5px 0px 0px;
+    margin: 5px 0px;
 
 }
 
