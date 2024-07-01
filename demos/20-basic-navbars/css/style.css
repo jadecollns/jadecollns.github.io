@@ -14,6 +14,18 @@ body {
     align-items: center;
 }
 
+#navbar-bottom {
+    background: linear-gradient(to bottom, yellowgreen, olive);
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
 #navbar a {
     text-decoration: none;
     color: white;
@@ -45,4 +57,37 @@ body {
     margin: 48px auto;
     font-size: 24px;
     height: 200vh;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#footer {
+    background: linear-gradient(to bottom, teal, #01482e);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-columns-navbar a {
+    padding: 8px 0px;
 }
