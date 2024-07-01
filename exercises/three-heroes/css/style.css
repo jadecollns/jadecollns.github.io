@@ -55,28 +55,30 @@ body {
 }
 
 #hero-2 {
-    background-image: url("../images/plane.jpg");
+    background-image: url("../images/plane-2.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-end;
    
 }
 
 #hero-2 h2 {
-    font-size: 4vw;
+    font-size: 5vw;
     color: white;
+    margin-right: 10vh;
     margin-bottom: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #hero-2 h3 {
-    font-size: 2vw;
+    font-size: 3vw;
     color: white;
-    padding: 2px;
+    margin-right: 10vh;
+    padding: 6px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
@@ -88,6 +90,7 @@ body {
     text-decoration: none;
     padding: 8px 20px;
     margin-bottom: 6vh;
+    margin-right: 10vh;
     border: solid;
     border-radius: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
