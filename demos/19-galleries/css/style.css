@@ -13,6 +13,7 @@ body {
     text-align: center;
 }
 
+/* Landscape & Portrait Gallery */
 .basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -25,6 +26,7 @@ body {
     width: 100%;
 }
 
+/* Mixed Gallery (cropped) */
 .cropped-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -39,6 +41,7 @@ body {
     object-fit: cover;
 }
 
+/* Masonry Gallery (horizontal) */
 .horizontal-masonry-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -51,6 +54,7 @@ body {
     object-fit: cover;
 }
 
+/* Masonry Gallery (vertical/columns) */
 .vertical-masonry-gallery {
     columns: 3 auto;
     column-gap: 24px;
