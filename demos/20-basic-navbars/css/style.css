@@ -78,6 +78,13 @@ body {
 #footer-navbar {
     width: 800px;
     margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
     padding: 48px 0px;
     display: flex;
     justify-content: space-between;
