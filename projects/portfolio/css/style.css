@@ -112,25 +112,30 @@ body {
     margin-top: 14px;
     border: solid;
     border-radius: 40px;
-    transition: 
-        background-color .5s,
-        color .5s;
 }
 
 .card a:hover {
     background-color: transparent;
-    color: rgb(68, 157, 108) 
+    color: black; 
 }
 
 /* Gallery */
+#gallery {
+    max-width: 1000px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+#gallery h3 {
+    font-size: 36px;
+}
+
 .graphic-design-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+    columns: 3 auto;
+    column-gap: 24px;
 }
 
 .graphic-design-gallery img {
-    height: 250px;
-    flex: 1;
-    object-fit: cover;
+    width: 100%;
+    margin-bottom: 24px;
 }
