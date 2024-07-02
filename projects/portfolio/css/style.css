@@ -124,10 +124,14 @@ body {
     max-width: 1000px;
     margin: 24px auto;
     text-align: center;
+    border: #94deeb solid 10px;
+    padding: 0px 24px;
+    background-color: black;
 }
 
 #gallery h3 {
     font-size: 36px;
+    color: #94deeb;
 }
 
 .graphic-design-gallery {
