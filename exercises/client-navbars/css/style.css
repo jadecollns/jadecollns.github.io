@@ -79,9 +79,8 @@ body {
 
 /* CLIENT 3 */
 
-#navbar-2 {
-    background: 
-        linear-gradient(to right, rgb(247, 190, 84), #e04242);
+#main-nav {
+    background: rgb(241, 131, 27);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,27 +88,51 @@ body {
 
 }
 
-#navbar-2 h2 {
-    color: rgb(190, 54, 54);
-    font-size: 28px;
+#main-nav h2{
+    color: black;
+    font-size: 18px;
     font-family: "Playwrite IS", cursive;
     margin: 0px 24px;
 }
 
-#navbar-2 a {
+#main-nav a{
     text-decoration: none;
-    color: rgb(190, 54, 54);
+    color: black;
     padding: 16px;
     margin-right: 5vw;
 }
 
-#navbar-2 a:hover {
-    color: #0e758c;
+#main-nav a:hover,
+#bottom-nav a:hover {
+    color: purple;
 }
 
-.cta-button {
-    background-color: rgb(247, 190, 84);
+#main-nav .cta-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(237, 155, 48);
     margin: 0px 24px;
-    border-radius: 60px;
+    border-radius: 20px;
+}
+
+#top-nav {
+    background-color: black;
+    color: rgb(237, 155, 48);
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+#bottom-nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+#bottom-nav a {
+    color: rgb(237, 155, 48);
+    text-decoration: none;
+    margin: 0px 24px;
 }
 
