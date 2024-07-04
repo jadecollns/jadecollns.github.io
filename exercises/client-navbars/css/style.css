@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -15,7 +17,7 @@ body {
     top: 0px;
 }
 
-/* CLIENT ONE */
+/* CLIENT 1 */
 
 #navbar-1 {
     background: linear-gradient(to bottom, rgba(65, 178, 65, 0.62), #477b8e);
@@ -44,8 +46,7 @@ body {
 /* CLIENT 2 */
 
 #navbar-2 {
-    background: 
-        linear-gradient(to right, rgb(247, 190, 84), #e04242);
+    background: linear-gradient(to right, rgb(247, 190, 84), #e04242);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,25 +57,30 @@ body {
 #navbar-2 h2 {
     color: rgb(190, 54, 54);
     font-size: 28px;
-    font-family: "Playwrite IS", cursive;
+    font-family: "Dancing Script", cursive;
     margin: 0px 24px;
 }
 
 #navbar-2 a {
     text-decoration: none;
     color: rgb(190, 54, 54);
-    padding: 16px;
+    padding: 10px;
     margin-right: 5vw;
 }
 
 #navbar-2 a:hover {
-    color: #0e758c;
+    color: rgb(247, 190, 84);
 }
 
-.cta-button {
+#navbar-2 .cta-button {
     background-color: rgb(247, 190, 84);
-    margin: 0px 24px;
     border-radius: 60px;
+    border: solid 3px rgb(247, 190, 84);
+}
+
+#navbar-2 .cta-button:hover {
+    color: rgb(247, 190, 84);
+    background-color: transparent;
 }
 
 /* CLIENT 3 */
@@ -82,20 +88,20 @@ body {
 #main-nav {
     background: rgb(241, 131, 27);
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 10px;
 
 }
 
 #main-nav h2{
     color: black;
-    font-size: 18px;
-    font-family: "Playwrite IS", cursive;
+    font-size: 28px;
+    font-family: "Ga Maamli", sans-serif;
     margin: 0px 24px;
 }
 
-#main-nav a{
+#main-nav a {
     text-decoration: none;
     color: black;
     padding: 16px;
@@ -112,6 +118,12 @@ body {
     color: rgb(237, 155, 48);
     margin: 0px 24px;
     border-radius: 20px;
+    border: solid 2px;
+}
+
+#main-nav .cta-button:hover {
+    background-color: purple;
+    color: black;
 }
 
 #top-nav {
@@ -119,15 +131,13 @@ body {
     color: rgb(237, 155, 48);
     display: flex;
     justify-content: center;
-    padding: 2px;
 }
 
 #bottom-nav {
     background-color: black;
     display: flex;
     justify-content: space-between;
-
-    padding: 20px;
+    padding: 16px;
 }
 
 #bottom-nav a {
