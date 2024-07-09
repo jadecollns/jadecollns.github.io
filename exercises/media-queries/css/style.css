@@ -216,6 +216,9 @@ a {
         align-items: center;
         padding: 12px;
     }
+    #nav-links li {
+        padding: 12px;
+    }
     #hero h1 {
         font-size: 46px;
     }
