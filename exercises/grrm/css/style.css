@@ -501,7 +501,7 @@ body {
     #card-3,
     #aside,
     #main {
-        background-color: none;
+        background-color: transparent;
         padding: 0px;
         margin: 0px;
     }
