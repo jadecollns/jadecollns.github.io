@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Basic Card Design */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card1,
+.card2,
+.card3 {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card1 a,
+.card2 a,
+.card3 a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card2 img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Gallery 1 */
+
+.card1 {
+    background-color: rgb(212, 224, 246);
+}
+.card1:hover {
+    background-color: rgb(142, 176, 241);
+    color: white;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.card1:hover a {
+    background-color: white;
+    color: rgb(142, 176, 241);
+    border: white 3px solid;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.card1 {
+    transition: 
+        background-color 1s,
+        box-shadow 1s,
+        transform 1s;
+}
+
+/* Gallery 2 */
+
+.card2 {
+    background-color: azure;
+}
+
+.card2 a {
+    transition:
+        background-color 1s,
+        box-shadow 1s,
+        transform 1s;
+}
+
+.card2:hover a {
+    background-color: rgb(203, 231, 249);
+    box-shadow: 8px 8px 8px skyblue;
+    transform: translateY(-8px);
+}
+
+/* Gallery 3 */
+
+.card3 {
+    background-color: rgb(244, 211, 216);
+}
+
+.card3 .card-content {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s,
+        visibility 0.5s;
+}
+
+.card3:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+}
