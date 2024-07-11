@@ -125,7 +125,7 @@ body {
 }
 
 .adopt-me h1 {
-    margin-top: 12px;
+    margin-top: 0px;
     color: rgb(146, 62, 69);
     font-family: "Acme", sans-serif;
 }
