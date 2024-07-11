@@ -7,36 +7,67 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/pawprints.jpg);
+    background-image: url(../images/paws.jpg);
     height: 100vh;
     background-size: cover;
 }
 
 /* NAVBAR */
+
 .navbar {
-    background: sandybrown;
-    padding: 4px;
+    background: rgb(250, 168, 163);
     display: flex;
     align-items: center;
-    border-bottom: solid 3px rgb(92, 46, 13);
 }
 
 .navbar a {
     text-decoration: none;
-    color: rgb(92, 46, 13);
-    padding: 8px;
-    margin: 0px 36px;
+    color: rgb(146, 62, 69);
+    padding: 20px;
+    display: inline-block;
 }
 
 .navbar a:hover {
-    color: rgb(240, 167, 103);
-    background-color: rgb(92, 46, 13);
-    border-radius: 36px;
+    color: rgb(250, 168, 163);
+    background: rgb(146, 62, 69);
 }
 
 .navbar #logo {
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: bold;
     margin-right: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* DROPDOWN MENU */
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: rgb(250, 168, 163);
+    width: 100%;
+    min-width: 100px;
+}
+
+.navbar .dropdown-menu a:hover {
+    background-color: rgb(146, 62, 69);
 }
 
 /* HERO */
@@ -52,7 +83,7 @@ body {
 
 #hero h1 {
     font-size: 36px;
-    color: sandybrown;
+    color: rgb(250, 168, 163);
     margin-right: auto;
     padding: 36px;
     font-family: "Indie Flower", cursive;
@@ -76,26 +107,27 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: sandybrown;
-    border: solid 3px rgb(92, 46, 13);
-    border-radius: 50px;
+    background-color: rgb(250, 168, 163);
+    box-shadow: 4px 4px 10px rgb(146, 62, 69);
+    border-radius: 25px;
     padding: 24px;
-    margin: 40px;
-    color: rgb(92, 46, 13);
+    margin-top: 10vh;
 }
 
 .adopt-me img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
-    border: solid 3px rgb(92, 46, 13);
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 .adopt-me h1 {
-    margin-bottom: 30px;
+    margin-top: 12px;
+    color: rgb(146, 62, 69);
 }
 .adopt-me p {
-    margin-top: 30px;
+    margin: 24px 12px 0px;
+    color: rgb(146, 62, 69);
 }
 
 /* ANIMAL 1 */
