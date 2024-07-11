@@ -25,6 +25,7 @@ body {
     color: rgb(146, 62, 69);
     padding: 20px;
     display: inline-block;
+    font-size: 20px;
 }
 
 .navbar a:hover {
@@ -33,7 +34,7 @@ body {
 }
 
 .navbar #logo {
-    font-size: 30px;
+    font-size: 34px;
     font-weight: bold;
     margin-right: auto;
     padding-top: 12px;
@@ -140,6 +141,7 @@ body {
 
     .navbar a {
         padding: 12px;
+        font-size: 16px;
     }
 
     .navbar #logo {
