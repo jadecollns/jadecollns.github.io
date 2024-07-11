@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 * {
     box-sizing: border-box;
@@ -39,6 +40,7 @@ body {
     margin-right: auto;
     padding-top: 12px;
     padding-bottom: 12px;
+    font-family: "Acme", sans-serif;
 }
 
 /* DROPDOWN MENU */
@@ -83,10 +85,11 @@ body {
 }
 
 #hero h1 {
-    font-size: 36px;
+    font-size: 34px;
     color: rgb(250, 168, 163);
     margin-right: auto;
-    padding: 36px;
+    margin-top: 8vh;
+    margin-left: 8vw;
     font-family: "Indie Flower", cursive;
     
 }
@@ -124,6 +127,7 @@ body {
 .adopt-me h1 {
     margin-top: 12px;
     color: rgb(146, 62, 69);
+    font-family: "Acme", sans-serif;
 }
 .adopt-me p {
     margin: 24px 12px 0px;
