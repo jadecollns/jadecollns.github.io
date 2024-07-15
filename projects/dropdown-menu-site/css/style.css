@@ -165,8 +165,12 @@ body {
     } 
 
     .adopt-me {
-        width: 400px;
+        width: 350px;
         margin-bottom: 10vh;
+    }
+
+    .adopt-me img {
+        height: 300px;
     }
     
     .adopt-me h1 {
