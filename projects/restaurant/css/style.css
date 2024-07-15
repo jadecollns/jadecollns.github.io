@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,6 +9,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: #f1b98a;
 }
 
 /* NAVBAR */
@@ -12,38 +17,49 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    background: peachpuff;
+    background: #c6ddbc;
 }
+
 .navbar a {
-    padding: 18px;
+    padding: 12px 36px;
     text-decoration: none;
-    color: saddlebrown;
+    color: #884c30;
+    font-size: 20px;
+    font-family: "Amaranth", sans-serif;
 }
+
 .navbar #logo {
     margin-right: auto;
+    margin-top: 4px;
 }
 
 .navbar #logo img {
-    width: 100px;
+    width: 90px;
 }
 
 .navbar .cta-button {
-    background-color: white;
-    color: saddlebrown;
+    background-color: #884c30;
+    color: #c6ddbc;
     border-radius: 50px;
-    padding: 16px;
-    font-size: 20px;
-    font-weight: bold;
-    min-width: 130px;
+    padding: 14px;
+    min-width: 100px;
     text-align: center;
-    margin-right: 24px;
+    margin-right: 36px;
     margin-left: auto;
+}
+
+.navbar-top {
+    display: flex;
+    justify-content: center;
+    font-family: "Amaranth", sans-serif;
+    background: #884c30;
+    color: #c6ddbc;
 }
 
 /* LAYOUT */
 
 .layout {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 24px auto;
     text-align: center;
 }
@@ -51,12 +67,32 @@ body {
 /* HERO */
 
 #hero {
-    background-image: url(../images/wood-hero.jpg);
-    height: 50vh;
+    background-image: url(../images/pizza-hero.jpg);
+    height: 60vh;
     background-size: cover;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    flex-direction: column;
+}
+
+#hero h1 {
+    color: #c6ddbc;
+    font-family: "Oleo Script", system-ui;
+    font-size: 36px;
+    margin-left: 8vw;
+    margin-top: 0px;
+}
+
+#hero a {
+    color: #c6ddbc;
+    background: #3e7c3c;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 8vw;
+    font-family: "Amaranth", sans-serif;
+    font-size: 24px;
 }
 
 /* CARD GALLERY */
@@ -75,14 +111,12 @@ body {
     object-fit: cover;
 }
 
-
-
 /* FOOTER */
 
 .footer {
-    background: peachpuff;
-    color: saddlebrown;
-    padding: 12px;
+    background: #c6ddbc;
+    color: #884c30;
+    padding: 24px;
 }
 
 .footer a {
@@ -93,6 +127,7 @@ body {
 .footer-navbar {
     width: 800px;
     margin: 0px auto;
+    padding-top: 24px;
     display: flex;
     justify-content: space-between;
 }
@@ -100,7 +135,7 @@ body {
 .footer-columns-navbar {
     width: 800px;
     margin: 0px auto;
-    padding: 48px 0px;
+    padding: 12px 0px;
     display: flex;
     justify-content: space-around;
 }
