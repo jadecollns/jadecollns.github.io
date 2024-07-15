@@ -21,7 +21,7 @@ body {
 }
 
 #navbar a {
-    padding: 12px 36px;
+    padding: 12px 30px;
     text-decoration: none;
     color: #884c30;
     font-size: 20px;
@@ -143,4 +143,27 @@ body {
 #footer-columns-navbar a {
     display: block;
     padding: 8px 0px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar a {
+        display: inline;
+    }
+    #navbar #logo {
+        margin-right: 0px;
+    }
+
+    #navbar .cta-button {
+        margin: 12px 0px 24px
+        
+    }
+
 }

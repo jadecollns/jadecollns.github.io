@@ -136,30 +136,37 @@ body {
     font-size: 18px;
 }
 
-/* TABELT BREAKPOINT */
+/* MOBILE BREAKPOINT */
 
 @media screen and (max-width: 600px) {
     
     #hero h1 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
-    .navbar a {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar a {
         padding: 12px;
-        font-size: 16px;
+        font-size: 20px;
     }
 
-    .navbar #logo {
-        font-size: 26px;
+    #navbar #logo {
+        margin: 8px;
     }
 
-    .single-column {
-        min-width: 460px;
-        max-width: 800px;
+    #single-column {
+        flex-direction: column;
+        align-items: center;
+        max-width: 600px;
+        min-width: 300px;
     } 
 
     .adopt-me {
         width: 400px;
+        margin-bottom: 10vh;
     }
     
     .adopt-me h1 {
