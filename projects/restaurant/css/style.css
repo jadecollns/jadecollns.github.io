@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: peachpuff;
+}
+.navbar a {
+    padding: 18px;
+    text-decoration: none;
+    color: saddlebrown;
+}
+.navbar #logo {
+    margin-right: auto;
+}
+
+.navbar #logo img {
+    width: 100px;
+}
+
+.navbar .cta-button {
+    background-color: white;
+    color: saddlebrown;
+    border-radius: 50px;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 130px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: auto;
+}
+
+/* LAYOUT */
+
+.layout {
+    max-width: 1000px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+/* HERO */
+
+#hero {
+    background-image: url(../images/wood-hero.jpg);
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CARD GALLERY */
+
+#card-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 24px;
+    gap: 24px;
+
+}
+
+#card-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    background: peachpuff;
+    color: saddlebrown;
+    padding: 12px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: saddlebrown;
+}
+
+.footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
