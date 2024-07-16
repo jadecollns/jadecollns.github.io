@@ -12,20 +12,33 @@ body {
     background: #f1b98a;
 }
 
+/* LAYOUT */
+
+#layout {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+}
+
 /* NAVBAR */
 
 #navbar {
     display: flex;
     align-items: center;
-    background: #c6ddbc;
+    background: #f1b98a;
+    border-bottom: #884c30 3px solid;
 }
 
 #navbar a {
-    padding: 12px 30px;
+    padding: 8px 30px;
     text-decoration: none;
     color: #884c30;
     font-size: 20px;
     font-family: "Amaranth", sans-serif;
+}
+
+#navbar a:hover {
+    color: #3e7c3c
 }
 
 #navbar #logo {
@@ -34,7 +47,7 @@ body {
 }
 
 #navbar #logo img {
-    width: 90px;
+    width: 80px;
 }
 
 #navbar .cta-button {
@@ -48,6 +61,12 @@ body {
     margin-left: auto;
 }
 
+#navbar .cta-button:hover {
+    background-color: #3e7c3c;
+    color: #c6ddbc;
+}
+
+
 #navbar-top {
     display: flex;
     justify-content: center;
@@ -56,13 +75,12 @@ body {
     color: #c6ddbc;
 }
 
-/* LAYOUT */
-
-.layout {
-    max-width: 1200px;
-    margin: 24px auto;
-    text-align: center;
+#navbar-top p {
+    margin: 10px;
+    font-size: 16px;
 }
+
+
 
 /* HERO */
 
@@ -95,13 +113,18 @@ body {
     font-size: 24px;
 }
 
+#hero .cta-button:hover {
+    background-color: #884c30;
+    color: #c6ddbc;
+}
+
 /* HOME PICS */
 
 #home-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 24px;
-    gap: 24px;
+    padding: 18px;
+    gap: 18px;
 
 }
 
@@ -114,26 +137,29 @@ body {
 /* FOOTER */
 
 #footer {
-    background: #c6ddbc;
-    color: #884c30;
+    background: #884c30;
     padding: 24px;
 }
 
 #footer a {
     text-decoration: none;
-    color: saddlebrown;
+    color: #f1b98a;
+    font-family: "Amaranth", sans-serif;
+}
+
+#footer a:hover {
+    color: #3e7c3c;
 }
 
 #footer-navbar {
-    width: 800px;
     margin: 0px auto;
-    padding-top: 24px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    color: #c6ddbc;
 }
 
 #footer-columns-navbar {
-    width: 800px;
+    display: flex;
     margin: 0px auto;
     padding: 12px 0px;
     display: flex;
@@ -146,7 +172,6 @@ body {
 }
 
 
-
 @media screen and (max-width: 800px) {
     
     #navbar {
@@ -155,7 +180,7 @@ body {
     }
 
     #navbar a {
-        display: inline;
+        font-size: 20px;
     }
     #navbar #logo {
         margin-right: 0px;
@@ -164,6 +189,26 @@ body {
     #navbar .cta-button {
         margin: 12px 0px 24px
         
+    }
+
+    #hero h1 {
+        font-size: 24px;
+    }
+
+    #hero a {
+        font-size: 20px;
+    }
+
+    #footer-columns-navbar {
+        flex-direction: column;
+    }
+
+    #footer-navbar {
+        justify-content: center;
+    }
+
+    #footer a {
+        font-size: 16px;
     }
 
 }
