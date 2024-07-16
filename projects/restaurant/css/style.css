@@ -378,6 +378,7 @@ body {
     #navbar #logo {
         margin-right: 0px;
         margin-left: 0px;
+        padding-top: 18px;
     }
 
     #navbar .cta-button {
