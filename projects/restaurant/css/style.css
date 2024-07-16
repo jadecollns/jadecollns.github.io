@@ -19,8 +19,8 @@ body {
     max-width: 1000px;
     margin: 0px auto;
     text-align: center;
-    border-left:#884c30 solid 5px;
-    border-right: #884c30 solid 5px;
+    border-left:#884c30 solid 8px;
+    border-right: #884c30 solid 8px;
 }
 
 /* NAVBAR */
@@ -46,6 +46,7 @@ body {
 #navbar #logo {
     margin-right: auto;
     margin-top: 4px;
+    margin-left: 10px;
 }
 
 #navbar #logo img {
@@ -56,7 +57,7 @@ body {
     background-color: #884c30;
     color: #f1b98a;
     border-radius: 20px;
-    padding: 14px;
+    padding: 12px;
     margin-right: 36px;
     min-width: 100px;
     text-align: center;
@@ -184,7 +185,7 @@ body {
 #featured {
     display: flex;
     align-items: center;
-    margin: 24px;
+    margin: 18px;
     height: 18vh;
     gap: 48px;
 }
@@ -195,7 +196,7 @@ body {
 
 #featured .text-container {
     flex: 1;
-    margin-bottom: 36px;
+    margin-bottom: 6vh;
 }
 
 #featured .image-container img {
@@ -203,16 +204,18 @@ body {
 }
 
 #featured .text-container h1 {
-    font-size: 36px;
+    font-size: 32px;
     color: #f1b98a;
     font-family: "Oleo Script", system-ui;
+    margin-bottom: 0px;
 }
 
 #featured .text-container p {
     font-family: "Amaranth", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #f1b98a;
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
+    margin-top: 16px;
 }
 
 #featured .cta-button {
@@ -220,7 +223,7 @@ body {
     background: #f1b98a;
     border-radius: 20px;
     text-decoration: none;
-    padding: 18px;
+    padding: 12px;
     font-family: "Amaranth", sans-serif;
     font-size: 18px;
 }
@@ -385,11 +388,11 @@ body {
     }
 
     #hero h1 {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     #hero .cta-button {
-        font-size: 16px;
+        font-size: 18px;
         margin-left: 6vw;
     }
 
@@ -410,28 +413,29 @@ body {
     }
 
     #featured-section {
-        padding: 24px 10px;
+        padding: 12px 0px;
     }
     
     #featured {
-        height: 28vh;
+        height: 30vh;
     }
 
     #featured .image-container img {
         object-fit: cover;
+        width: 40vw;
+        height: 30vh;
     }
     
     #featured .text-container h1 {
         font-size: 24px;
+        margin-top: 3vh;
     }
     
     #featured .text-container p {
         font-size: 16px;
-        margin-bottom: 36px;
     }
     
-    #featured a {
-        padding: 16px;
+    #featured .cta-button {
         font-size: 16px;
     }
 
