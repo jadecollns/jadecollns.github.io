@@ -26,7 +26,6 @@ body {
     display: flex;
     align-items: center;
     background: #f1b98a;
-    border-bottom: #884c30 3px solid;
 }
 
 #navbar a {
@@ -113,7 +112,7 @@ body {
     font-size: 24px;
 }
 
-#hero .cta-button:hover {
+#hero a:hover {
     background-color: #884c30;
     color: #c6ddbc;
 }
@@ -171,8 +170,99 @@ body {
     padding: 8px 0px;
 }
 
+/* MENU - FEATURED */
+
+#featured-section {
+    padding: 7vw;
+    margin: 0px;
+    background: #884c30;
+}
+
+#featured {
+    display: flex;
+    align-items: center;
+    margin: 24px;
+    height: 18vh;
+    gap: 48px;
+}
+
+#featured .image-container {
+    flex: 1;
+}
+
+#featured .text-container {
+    flex: 1;
+    margin-bottom: 36px;
+}
+
+#featured .image-container img {
+    width: 100%;
+}
+
+#featured .text-container h1 {
+    font-size: 36px;
+    color: #c6ddbc;
+    font-family: "Oleo Script", system-ui;
+}
+
+#featured .text-container p {
+    font-family: "Amaranth", sans-serif;
+    font-size: 20px;
+    color: #c6ddbc;
+    margin-bottom: 7vh;
+}
+
+#featured a {
+    color: #c6ddbc;
+    background: #3e7c3c;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 18px;
+    font-family: "Amaranth", sans-serif;
+    font-size: 18px;
+}
+
+
+/* MENU - CARDS */
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    gap: 24px;
+}
+
+#menu-cards h1 {
+    font-family: "Oleo Script", system-ui;
+    color: #884c30;
+    margin-bottom: 0px;
+    margin-top: 28px;
+}
+.card {
+    flex: 1;
+    background-color: #884c30;
+    text-align: center;
+    color: #f1b98a;
+    font-family: "Amaranth", sans-serif;
+    padding: 18px;
+}
+
+.card h2 {
+    margin: 8px 0px 16px;
+    font-size: 20px;
+    font-family: "Amaranth", sans-serif;
+    color: #c6ddbc;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover
+}
+
+
 /* TABLET BREAKPOINT */
-@media screen and (max-width: 750px) and (min-width: 501px) {
+@media screen and (max-width: 800px) and (min-width: 501px) {
     #navbar {
         justify-content: space-between;
     }
@@ -199,6 +289,14 @@ body {
     #hero a {
         font-size: 26px;
         margin-left: 5vw;
+    }
+
+    .card img {
+        height: 150px;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
     }
 
 }
@@ -249,6 +347,18 @@ body {
 
     #footer a {
         font-size: 16px;
+    }
+
+    #featured {
+        height: 20vh;
+    }
+
+    #featured h1 {
+        font-size: 16px;
+    }
+
+    .card-container {
+        flex-direction: column;
     }
 
 }
