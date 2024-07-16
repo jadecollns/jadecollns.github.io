@@ -32,13 +32,13 @@ body {
 #navbar a {
     padding: 8px 30px;
     text-decoration: none;
-    color: #3e7c3c;
+    color: #884c30;
     font-size: 20px;
     font-family: "Amaranth", sans-serif;
 }
 
 #navbar a:hover {
-    color: #884c30
+    color: #53a347;
 }
 
 #navbar #logo {
@@ -62,8 +62,8 @@ body {
 }
 
 #navbar .cta-button:hover {
-    background-color: #3e7c3c;
-    color: #c6ddbc;
+    background-color: #53a347;
+    color: #f1b98a;
 }
 
 
@@ -95,20 +95,20 @@ body {
 #hero h1 {
     color: #c6ddbc;
     font-family: "Oleo Script", system-ui;
-    font-size: 36px;
+    font-size: 3px;
     margin-left: 7vw;
     margin-top: 0px;
 }
 
-#hero a {
+#hero .cta-button {
     color: #c6ddbc;
-    background: #3e7c3c;
+    background: #53a347;
     border-radius: 50px;
     text-decoration: none;
     padding: 20px;
     margin-left: 6vw;
     font-family: "Amaranth", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #hero a:hover {
@@ -212,14 +212,20 @@ body {
     margin-bottom: 7vh;
 }
 
-#featured a {
-    color: #c6ddbc;
-    background: #3e7c3c;
+#featured .cta-button {
+    color: #884c30;
+    background: #53a347;
     border-radius: 50px;
     text-decoration: none;
     padding: 18px;
     font-family: "Amaranth", sans-serif;
     font-size: 18px;
+}
+
+#featured a:hover {
+    background-color: #c6ddbc;
+    color: #884c30;
+
 }
 
 
@@ -400,16 +406,40 @@ body {
         font-size: 16px;
     }
 
+    #featured-section {
+        padding: 24px 10px;
+    }
+    
     #featured {
-        height: 20vh;
+        height: 28vh;
     }
 
-    #featured h1 {
+    #featured .image-container img {
+        height: 270px;
+        width: 180px;
+        object-fit: cover;
+    }
+    
+    #featured .text-container h1 {
+        font-size: 24px;
+    }
+    
+    #featured .text-container p {
+        font-size: 16px;
+        margin-bottom: 36px;
+    }
+    
+    #featured a {
+        padding: 16px;
         font-size: 16px;
     }
 
     .card-container {
         flex-direction: column;
+    }
+
+    #menu-cards h1 {
+        font-size: 32px;
     }
 
 }
