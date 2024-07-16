@@ -94,6 +94,8 @@ body {
 
 #hero h1 {
     color: #c6ddbc;
+    background-color: #884c30;
+    padding: 2px;
     font-family: "Oleo Script", system-ui;
     font-size: 3px;
     margin-left: 7vw;
@@ -101,19 +103,18 @@ body {
 }
 
 #hero .cta-button {
-    color: #c6ddbc;
-    background: #53a347;
+    color: #884c30;
+    background: #c6ddbc;
     border-radius: 50px;
     text-decoration: none;
-    padding: 20px;
+    padding: 18px;
     margin-left: 6vw;
     font-family: "Amaranth", sans-serif;
     font-size: 20px;
 }
 
 #hero a:hover {
-    background-color: #884c30;
-    color: #c6ddbc;
+    background-color: #53a347;
 }
 
 /* HOME PICS */
@@ -208,13 +209,13 @@ body {
 #featured .text-container p {
     font-family: "Amaranth", sans-serif;
     font-size: 20px;
-    color: #c6ddbc;
+    color: #f1b98a;
     margin-bottom: 7vh;
 }
 
 #featured .cta-button {
     color: #884c30;
-    background: #53a347;
+    background: #c6ddbc;
     border-radius: 50px;
     text-decoration: none;
     padding: 18px;
@@ -223,7 +224,7 @@ body {
 }
 
 #featured a:hover {
-    background-color: #c6ddbc;
+    background-color: #53a347;
     color: #884c30;
 
 }
