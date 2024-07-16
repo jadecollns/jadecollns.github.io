@@ -9,16 +9,18 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background: #c6ddbc;
+    background-image: url(../images/wood-2.jpg);
+    background-size: 100vh;
 }
 
 /* LAYOUT */
 
 #layout {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0px auto;
     text-align: center;
-    border: #884c30 10px solid;
+    border-left:#884c30 solid 5px;
+    border-right: #884c30 solid 5px;
 }
 
 /* NAVBAR */
@@ -52,12 +54,12 @@ body {
 
 #navbar .cta-button {
     background-color: #884c30;
-    color: #c6ddbc;
-    border-radius: 50px;
+    color: #f1b98a;
+    border-radius: 20px;
     padding: 14px;
+    margin-right: 36px;
     min-width: 100px;
     text-align: center;
-    margin-right: 36px;
     margin-left: auto;
 }
 
@@ -72,7 +74,8 @@ body {
     justify-content: center;
     font-family: "Amaranth", sans-serif;
     background: #884c30;
-    color: #c6ddbc;
+    color: #f1b98a;
+    margin-top: 0px;
 }
 
 #navbar-top p {
@@ -83,38 +86,37 @@ body {
 /* HERO */
 
 #hero {
-    background-image: url(../images/pizza-hero.jpg);
-    height: 60vh;
+    background-image: url(../images/pizza-5.png);
+    height: 55vh;
     background-size: cover;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
     flex-direction: column;
 }
 
 #hero h1 {
-    color: #c6ddbc;
-    background-color: #884c30;
-    padding: 2px;
+    color: #f1b98a;
+    padding: 12px;
     font-family: "Oleo Script", system-ui;
-    font-size: 3px;
-    margin-left: 7vw;
-    margin-top: 0px;
+    font-size: 35px;
+    margin-left: 3vw;
+    margin-top: 3vw;
 }
 
 #hero .cta-button {
-    color: #884c30;
-    background: #c6ddbc;
-    border-radius: 50px;
+    color: #f1b98a;
+    background: #884c30;
+    border-radius: 20px;
     text-decoration: none;
-    padding: 18px;
-    margin-left: 6vw;
+    padding: 12px;
+    margin-left: 4vw;
     font-family: "Amaranth", sans-serif;
     font-size: 20px;
 }
 
 #hero a:hover {
     background-color: #53a347;
+    color: #f1b98a;
 }
 
 /* HOME PICS */
@@ -147,14 +149,14 @@ body {
 }
 
 #footer a:hover {
-    color: #c6ddbc;
+    color: #53a347;
 }
 
 #footer-navbar {
     margin: 0px auto;
     display: flex;
     justify-content: flex-end;
-    color: #c6ddbc;
+    color: #53a347;
     
 }
 
@@ -174,7 +176,7 @@ body {
 /* MENU - FEATURED */
 
 #featured-section {
-    padding: 7vw;
+    padding: 6vw;
     margin: 0px;
     background: #884c30;
 }
@@ -202,7 +204,7 @@ body {
 
 #featured .text-container h1 {
     font-size: 36px;
-    color: #c6ddbc;
+    color: #f1b98a;
     font-family: "Oleo Script", system-ui;
 }
 
@@ -215,8 +217,8 @@ body {
 
 #featured .cta-button {
     color: #884c30;
-    background: #c6ddbc;
-    border-radius: 50px;
+    background: #f1b98a;
+    border-radius: 20px;
     text-decoration: none;
     padding: 18px;
     font-family: "Amaranth", sans-serif;
@@ -263,7 +265,7 @@ body {
     margin: 8px 0px 16px;
     font-size: 20px;
     font-family: "Amaranth", sans-serif;
-    color: #c6ddbc;
+    color: #f1b98a;
 }
 
 .card img {
@@ -274,10 +276,7 @@ body {
 
 
 /* TABLET BREAKPOINT */
-@media screen and (max-width: 800px) and (min-width: 501px) {
-    #navbar {
-        justify-content: space-between;
-    }
+@media screen and (max-width: 800px) and (min-width: 525px) {
     
     #navbar a {
         font-size: 18px;
@@ -286,6 +285,7 @@ body {
 
     #navbar .cta-button {
         margin-right: 12px;
+        margin-left: 24px;
         min-width: 50px;
     }
 
@@ -295,11 +295,12 @@ body {
 
     #hero h1 {
         font-size: 26px;
-        margin-left: 6vw;
+        margin-left: 3vw;
+        padding-bottom: 0px;
     }
 
-    #hero a {
-        font-size: 26px;
+    #hero .cta-button {
+        font-size: 20px;
         margin-left: 5vw;
     }
 
@@ -360,7 +361,7 @@ body {
 }
 
 /* MOBILE BREAKPOINT */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
     
     #navbar {
         flex-direction: column;
@@ -368,14 +369,14 @@ body {
     }
 
     #navbar a {
-        font-size: 18px;
+        font-size: 16px;
     }
     #navbar #logo {
         margin-right: 0px;
     }
 
     #navbar .cta-button {
-        margin: 12px 0px 24px
+        margin: 12px 0px 24px;
         
     }
 
@@ -384,11 +385,12 @@ body {
     }
 
     #hero h1 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
-    #hero a {
-        font-size: 20px;
+    #hero .cta-button {
+        font-size: 16px;
+        margin-left: 6vw;
     }
 
     #home-gallery {
@@ -416,8 +418,6 @@ body {
     }
 
     #featured .image-container img {
-        height: 270px;
-        width: 180px;
         object-fit: cover;
     }
     
