@@ -79,8 +79,6 @@ body {
     font-size: 16px;
 }
 
-
-
 /* HERO */
 
 #hero {
@@ -298,6 +296,52 @@ body {
     .card-container {
         flex-wrap: wrap;
     }
+
+    #featured-section {
+        padding: 24px;
+    }
+    
+    #featured {
+        height: 24vh;
+    }
+
+    #featured .image-container img {
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    #featured .text-container {
+        margin-bottom: 40px;
+    }
+    
+    #featured .text-container h1 {
+        font-size: 26px;
+    }
+    
+    #featured .text-container p {
+        font-size: 16px;
+        margin-bottom: 36px;
+    }
+    
+    #featured a {
+        padding: 16px;
+        font-size: 16px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 450px;
+    }
+
+    .card img {
+        height: 250px;
+        width: 400px;
+    }
+
 
 }
 
