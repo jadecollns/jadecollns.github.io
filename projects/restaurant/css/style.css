@@ -210,12 +210,15 @@ body {
     margin-bottom: 0px;
 }
 
-#featured .text-container p {
+#featured .text-container p,
+#price {
     font-family: "Amaranth", sans-serif;
     font-size: 18px;
     color: #f1b98a;
-    margin-bottom: 5vh;
-    margin-top: 16px;
+}
+
+#price {
+    margin: 18px 0px 30px;
 }
 
 #featured .cta-button {
@@ -338,7 +341,11 @@ body {
     
     #featured .text-container p {
         font-size: 16px;
-        margin-bottom: 36px;
+    }
+
+    #price {
+        margin-top: 8px;
+        font-size: 16px;
     }
     
     #featured a {
