@@ -17,6 +17,7 @@ body {
     border: 3px solid white;
     background-image: url(../images/football-2.jpg);
     background-size: 100%;
+    background-size: 100vh;
     object-fit: cover;
     color: white;
 }
@@ -82,12 +83,13 @@ body {
 #side-by-side h2 {
     font-size: 40px;
     font-family: "Fjalla One", sans-serif;
-    color: darkblue;
+    color: rgb(7, 106, 206)
 }
 
 /* DETAILS */
 
-#details p {
+#details p,
+#address {
     margin: 24px;
     font-size: 16px;
     background-color: rgb(86, 199, 244);
@@ -106,7 +108,7 @@ body {
 
 #address {
     margin: 24px 0px 0px;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 /* BUTTONS */
