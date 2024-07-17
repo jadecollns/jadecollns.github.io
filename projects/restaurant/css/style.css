@@ -44,9 +44,7 @@ body {
 }
 
 #navbar #logo {
-    margin-right: auto;
-    margin-top: 4px;
-    margin-left: 10px;
+    margin: 6px auto 0px 4px;
 }
 
 #navbar #logo img {
