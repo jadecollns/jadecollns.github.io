@@ -91,15 +91,15 @@ body {
 #details p {
     margin: 24px;
     font-size: 20px;
-    background-color: rgb(86, 199, 244);
+    background-color: rgb(30, 176, 234);
     color: white;
     margin: 0px 10vw;
-    padding: 12px;
+    padding: 24px;
     border-radius: 24px;
 }
 
 #date {
-    background-color: rgb(86, 199, 244);
+    background-color: rgb(30, 176, 234);
     color: white;
     margin: 0px 20vw;
     border-radius: 15px;
@@ -108,11 +108,11 @@ body {
 #address {
     margin: 24px 48px;
     font-size: 18px;
-    background-color: rgb(86, 199, 244);
+    background-color: rgb(30, 176, 234);
     color: white;
     margin: 24px 10vw 2px;
     padding: 12px;
-    border-radius: 24px;
+    border-radius: 15px;
 }
 
 /* BUTTONS */
@@ -127,7 +127,7 @@ body {
 }
 
 #can:hover {
-    background-color: skyblue;
+    background-color: rgb(30, 176, 234);
     color: darkblue;
 }
 
