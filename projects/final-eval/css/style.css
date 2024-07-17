@@ -88,10 +88,9 @@ body {
 
 /* DETAILS */
 
-#details p,
-#address {
+#details p {
     margin: 24px;
-    font-size: 16px;
+    font-size: 20px;
     background-color: rgb(86, 199, 244);
     color: white;
     margin: 0px 10vw;
@@ -107,8 +106,13 @@ body {
 }
 
 #address {
-    margin: 24px 0px 0px;
-    font-size: 22px;
+    margin: 24px 48px;
+    font-size: 18px;
+    background-color: rgb(86, 199, 244);
+    color: white;
+    margin: 24px 10vw 2px;
+    padding: 12px;
+    border-radius: 24px;
 }
 
 /* BUTTONS */
