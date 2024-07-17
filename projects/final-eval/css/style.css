@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.single-column {
+    max-width: 750px;
+    margin: 0px auto;
+    text-align: center;
+    border: 3px solid white;
+    background-image: url(../images/football-2.jpg);
+    background-size: 100%;
+    object-fit: cover;
+    color: white;
+}
+
+/* Header */
+
+#header,
+#details-container {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
+
+#header h1 {
+    font-size: 48px;
+    margin: 0px;
+
+}
+
+#header h2 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#header h3 {
+    font-size: 16px;
+}
+
+/* Logos */
+
+#side-by-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    margin: 0px;
+}
+
+.card img {
+    height: 150px;
+    object-fit: cover;
+    margin-top: 24px;
+}
+
+.card h1 {
+    font-size: 30px;
+    margin: 0px;
+    font-family: "Fjalla One", sans-serif;
+
+}
+
+#bears h1 {
+    color: darkorange;
+}
+
+#packers h1 {
+    color: darkgreen;
+}
+
+#side-by-side h2 {
+    font-size: 40px;
+    font-family: "Fjalla One", sans-serif;
+    color: darkblue;
+}
+
+/* DETAILS */
+
+#details p {
+    margin: 24px;
+    font-size: 16px;
+    background-color: rgb(86, 199, 244);
+    color: white;
+    margin: 0px 10vw;
+    padding: 12px;
+    border-radius: 24px;
+}
+
+#date {
+    background-color: rgb(86, 199, 244);
+    color: white;
+    margin: 0px 20vw;
+    border-radius: 15px;
+}
+
+#address {
+    margin: 24px 0px 0px;
+    font-size: 24px;
+}
+
+/* BUTTONS */
+
+.cta-button {
+    background-color: rgb(7, 106, 206);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 40px;
+    display: inline-block;
+    margin: 12px 24px;
+}
+
+#can:hover {
+    background-color: skyblue;
+    color: darkblue;
+}
+
+#cant {
+    background-color: crimson;
+}
+
+#cant:hover {
+    background-color: lightpink;
+    color: crimson;
+}
+
+/* QUESTIONS */
+
+#questions {
+    color: white;
+    font-size: 20px;
+}
+
+/* BREAKPOINT */
+
+@media screen and (max-width: 700px) {
+    .card img {
+        height: 100px
+    }
+
+}
