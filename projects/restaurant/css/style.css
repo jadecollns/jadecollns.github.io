@@ -67,7 +67,6 @@ body {
     color: #f1b98a;
 }
 
-
 #navbar-top {
     display: flex;
     justify-content: center;
@@ -154,9 +153,9 @@ body {
 #footer-navbar {
     margin: 0px auto;
     display: flex;
-    justify-content: flex-end;
-    color: #53a347;
-    
+    justify-content: center;
+    color: #f1b98a;
+    font-family: "Amaranth", sans-serif;
 }
 
 #footer-columns-navbar {
@@ -232,9 +231,7 @@ body {
 #featured a:hover {
     background-color: #53a347;
     color: #884c30;
-
 }
-
 
 /* MENU - CARDS */
 
@@ -280,7 +277,7 @@ body {
 
 
 /* TABLET BREAKPOINT */
-@media screen and (max-width: 800px) and (min-width: 525px) {
+@media screen and (max-width: 750px) and (min-width: 525px) {
     
     #navbar a {
         font-size: 18px;
@@ -306,6 +303,10 @@ body {
     #hero .cta-button {
         font-size: 20px;
         margin-left: 5vw;
+    }
+
+    #home-gallery {
+        grid-template-columns: 1fr 1fr;
     }
 
     .card img {
@@ -365,7 +366,6 @@ body {
         width: 400px;
     }
 
-
 }
 
 /* MOBILE BREAKPOINT */
@@ -387,8 +387,7 @@ body {
     }
 
     #navbar .cta-button {
-        margin: 12px 0px 24px;
-        
+        margin: 12px 0px 24px;  
     }
 
     #hero {
