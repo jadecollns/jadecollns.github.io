@@ -104,6 +104,10 @@ body {
     color: midnightblue;
 }
 
+#hero .cta-button:hover {
+    background-color: #7988d2;
+}
+
 /* SPOTLIGHT*/
 
 .side-by-side {
@@ -200,7 +204,7 @@ h2 {
     color: midnightblue;
     background-color: #c6cbec;
     padding: 8px;
-    border: 4px #7988d2 solid;
+    border: 3px #7988d2 solid;
 
 }
 
