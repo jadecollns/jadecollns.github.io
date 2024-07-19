@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Righteous&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -18,19 +20,19 @@ body {
 
 /* NAVBAR */
 
-#header a {
-    text-decoration: none;
-}
-
 #header {
     border: aliceblue 3px solid;
+}
+
+#header a {
+    text-decoration: none;
 }
 
 #top-nav {
     display: flex;
     text-align: center;
     justify-content: flex-end;
-    background-color: lightblue;
+    background-color: #c6cbec;
 }
 
 #top-nav a {
@@ -42,19 +44,27 @@ body {
     padding-right: 24px;
 }
 
+#top-nav a:hover{
+    text-decoration: underline;
+}
+
+#bottom-nav a:hover {
+    color: aliceblue;
+}
+
 #top-nav #logo {
     margin-right: auto;
     padding-left: 24px;
     font-size: 20px;
     font-weight: bold;
-    font-family: "Kalnia Glaze", serif;
+    font-family: "Aclonica", sans-serif;
 }
 
 #bottom-nav {
     display: flex;
     justify-content: space-between;
     padding: 8px 24px;
-    background-color: skyblue;
+    background-color: #a0aadf;
     border-top:aliceblue 3px solid;
 }
 
@@ -80,26 +90,27 @@ body {
 #hero h1 {
     color: midnightblue;
     font-size: 30px;
+    font-family: "Aclonica", sans-serif;
 }
 
 #hero .cta-button {
     text-decoration: none;
     padding-left: 5vw;
-    background-color: lightblue;
+    background-color: #c6cbec;
     max-width: 100px;
     padding: 8px;
     text-align: center;
-    border: solid 3px midnightblue;
+    border: solid 3px #7988d2;
     color: midnightblue;
 }
 
-/* MEDIA & TEXT */
+/* SPOTLIGHT*/
 
 .side-by-side {
     display: flex;
     align-items: center;
     margin: 24px auto;
-    height: vh;
+    height: 40vh;
     max-width: 750px;
     gap: 48px;
 }
@@ -113,8 +124,8 @@ body {
     width: 300px;
     height: 30vh;
     object-fit: cover;
-    background-color: lightblue;
-    border: solid 3px skyblue;
+    background-color: #c6cbec;
+    border: solid 3px #7988d2;
     padding: 12px;
 }
 
@@ -137,17 +148,18 @@ body {
     text-decoration: none;
     color: midnightblue;
 }
-#cta-button {
+
+.text-container .cta-button {
     color: midnightblue;
-    background: lightblue;
+    background: #c6cbec;
     display: inline-block;
-    border: skyblue 3px solid;
+    border: #7988d2 3px solid;
     text-decoration: none;
     padding: 8px;
     margin-top: 12px;
 }
 
-#cta-button:hover {
+.cta-button:hover {
     background-color: transparent;
 }
 
@@ -163,14 +175,14 @@ body {
 h2 {
     text-align: center;
     color: midnightblue;
-    font-family: "Kalnia Glaze", serif;
+    font-family: "Aclonica", sans-serif;
     margin-top: 36px;
     margin-bottom: 0px;
 }
 
 .card {
-    background-color: lightblue;
-    border: solid 3px skyblue;
+    background-color: #c6cbec;
+    border: solid 3px #7988d2;
     padding: 18px 12px;
     flex: 1;
     text-align: center;
@@ -186,14 +198,14 @@ h2 {
 .card a {
     text-decoration: none;
     color: midnightblue;
-    background-color: lightblue;
+    background-color: #c6cbec;
     padding: 8px;
-    border: 4px skyblue solid;
+    border: 4px #7988d2 solid;
 
 }
 
 .card a:hover {
-    background-color: skyblue;
+    background-color: #7988d2;
 }   
 
 /* MEDIA BREAKPOINT */
@@ -214,36 +226,59 @@ h2 {
     #bottom-nav a {
         padding: 8px;
     }
+
+    .image-container img {
+        width: 200px;
+        height: 30vh;
+    }
 }
 
 @media screen and (max-width: 450px) {
 
     #top-nav a {
-        font-size: 14px;
+        font-size: 16px;
+        padding: 0px 12px;
+    }
+
+    #top-nav {
+        display: grid;
+        margin-left: auto;
+        justify-content: center;
     }
 
     #top-nav #logo {
-        font-size: 16px;
+        margin-right: 0px;
+        padding-left: 0px;
     }
+
 
     #bottom-nav {
         grid-template-columns: 1fr 1fr;
-    }
-
-    #bottom-nav a {
-        font-size: 14px;
     }
 
     #hero h1 {
         font-size: 24px;
     }
 
-    #hero a {
-        font-size: 16px;
-    }
-
     #hero {
         height: 40vh;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .side-by-side {
+        gap: 24px;
+    }
+
+    .card {
+        width: 300px;
+        margin: 0px auto;
+    }
+
+    .card img {
+        height: 250px;
     }
 
 }
