@@ -6,26 +6,42 @@
 
     Good luck, and have fun!
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+#bulletin-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .post-it {
-    display: inline-block;
     margin: 24px;
-    padding: 24px;
+    padding: 12px;
     height: 200px;
     width: 200px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-#post-yellow {
+    font-family: "Indie Flower", cursive;
     background-color: rgb(253, 241, 136);
 }
-#post-green {
+
+.post-it h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#to-do,
+#upcoming {
     background-color: rgb(161, 243, 177);
 }
-#post-blue {
+
+#post-malone,
+#mehoy {
     background-color: rgb(176, 214, 249);
+    text-align: center;
 }
-#post-pink {
+
+#quote,
+#lion {
     background-color: rgb(251, 197, 241);
-}
-h4 {
-    text-decoration: underline;
+    text-align: center;
 }
