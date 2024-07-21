@@ -210,7 +210,43 @@ h2 {
 
 .card a:hover {
     background-color: #7988d2;
-}   
+}  
+
+/* FOOTER */
+#footer {
+    background: #a0aadf;
+    padding: 24px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: midnightblue;
+}
+
+#footer a:hover {
+    color: aliceblue;
+}
+
+#footer-navbar {
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-family: "Amaranth", sans-serif;
+}
+
+#footer-columns-navbar {
+    display: flex;
+    margin: 0px auto;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
 
 /* MEDIA BREAKPOINT */
 
