@@ -107,6 +107,80 @@ body {
     background-color: #7988d2;
 }
 
+/* CARDS */
+
+h2 {
+    text-align: center;
+    color: midnightblue;
+    font-family: "Aclonica", sans-serif;
+    margin-top: 36px;
+    margin-bottom: 0px;
+}
+
+.cards-container,
+#categories {
+    display: grid;
+    gap: 48px;
+    padding: 48px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.category-card {
+    flex: 1;
+    text-align: center;
+}
+
+.category-card a {
+    text-decoration: none;
+    padding: 8px;
+    margin-top: 24px;
+    width: 100px;
+    text-align: center;
+    color: midnightblue;
+    background-color: #c6cbec;
+}
+
+.category-card a:hover {
+    background-color: #7988d2;
+    color: aliceblue;
+}
+
+.category-card img {
+    border-radius: 50%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #c6cbec;
+    padding: 8px;
+}
+
+.card { 
+    background-color: #c6cbec;
+    padding: 18px 12px;
+    flex: 1;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: midnightblue;
+    background-color: aliceblue;
+    padding: 8px;
+
+}
+
+.card a:hover {
+    background-color: #7988d2;
+    color: aliceblue;
+}  
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 18px;
+}
+
 /* SPOTLIGHT*/
 
 #spotlight {
@@ -163,80 +237,6 @@ body {
     padding: 8px;
 }
 
-/* CARDS */
-
-.cards-container,
-#categories {
-    display: grid;
-    gap: 48px;
-    padding: 48px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-h2 {
-    text-align: center;
-    color: midnightblue;
-    font-family: "Aclonica", sans-serif;
-    margin-top: 36px;
-    margin-bottom: 0px;
-}
-
-.card { 
-    background-color: #c6cbec;
-    padding: 18px 12px;
-    flex: 1;
-    text-align: center;
-}
-
-.card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    margin-bottom: 18px;
-}
-
-.card a {
-    text-decoration: none;
-    color: midnightblue;
-    background-color: aliceblue;
-    padding: 8px;
-
-}
-
-.card a:hover {
-    background-color: #7988d2;
-    color: aliceblue;
-}  
-
-.category-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.category-card a {
-    text-decoration: none;
-    padding: 8px;
-    margin: 16px;
-    width: 100px;
-    text-align: center;
-    color: midnightblue;
-    background-color: #c6cbec;
-}
-
-.category-card a:hover {
-    background-color: #7988d2;
-    color: aliceblue;
-}
-
-.category-card img {
-    border-radius: 50%;
-    width: 100%;
-    height: 205px;
-    object-fit: cover;
-    background-color: #c6cbec;
-    padding: 8px;
-}
 
 /* FOOTER */
 #footer {
