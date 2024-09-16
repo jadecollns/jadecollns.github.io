@@ -122,7 +122,7 @@ body {
 #home-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 18px;
+    padding: 18px 18px 0px;
     gap: 18px;
     background-color: #f1b98a;
 }
@@ -249,7 +249,7 @@ body {
 .card-container {
     display: flex;
     justify-content: space-between;
-    padding: 24px;
+    padding: 24px 24px 0px;
     gap: 24px;
 }
 
@@ -284,7 +284,7 @@ body {
 }
 
 .attributions a {
-    font-size: 10px;
+    font-size: 9px;
     font-family: "Amaranth", sans-serif;
     color: #884c30;
 }
