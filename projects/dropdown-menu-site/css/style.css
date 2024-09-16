@@ -94,6 +94,14 @@ body {
     
 }
 
+/* Attribution */
+
+.attribution p {
+    padding: 10px;
+    font-size: 9px;
+    font-family: "Indie Flower", cursive;
+}
+
 /* LAYOUT */
 
 #single-column {
