@@ -275,6 +275,19 @@ body {
     object-fit: cover
 }
 
+/* Attributions */
+
+.attributions {
+    background-color: #f1b98a;
+    padding: 12px;
+    font-size: 12px;
+}
+
+.attributions a {
+    font-size: 10px;
+    font-family: "Amaranth", sans-serif;
+    color: #884c30;
+}
 
 /* TABLET BREAKPOINT */
 @media screen and (max-width: 750px) and (min-width: 525px) {
@@ -367,6 +380,7 @@ body {
     }
 
 }
+
 
 /* MOBILE BREAKPOINT */
 @media screen and (max-width: 525px) {
